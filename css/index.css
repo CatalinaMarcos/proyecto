@@ -1,4 +1,16 @@
 h1 {
-    background-color: rgb(135, 114, 82);
     color: aliceblue; 
+}
+
+.header {
+    background-color: rgb(135, 114, 82);
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.sesión {
+    align-content: center;
 }
