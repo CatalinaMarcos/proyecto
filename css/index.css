@@ -1,57 +1,122 @@
-/*cosas generales*/
-* { box-sizing: border-box; }
-
-body {margin: 0; }	
- ul, ol {  padding: 0;}
- li { list-style-type: none; }
- a { text-decoration: none; color: #000; }
- 
-
-
-
-
- /*ahora si*/
-
-
+/* Estilos generales */
 body {
-    background-color: rgb(191, 176, 152);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 224, 255);
 }
 
- h1 {
-    color: aliceblue; 
-}
-
-.header {
-    background-color: rgb(135, 114, 82);
-    width: 100%;
-    height: 15vh;
-    margin: 10px;
+/* Estilos para el header */
+.main_header {
     display: flex;
-    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(61, 74, 113);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.sesión {
-    align-content: center;
-    align-self: flex-end;
+.centrado {
+    text-align: center;
+}
+.categoria{
+    text-align: center;
 }
 
-.carrito {
-    align-content: center;
-}
-
-.title {
-    align-content: center;
-}
-
-.contenedor {
-    background-color: rgb(135, 114, 82);
-    width: 100%;
-    margin: 10px;
+.logo {
     display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    margin-left: 10px;
+}
+
+.funciones_header {
+    display: flex;
+}
+
+.funciones_header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Estilos para el headerlow */
+.headerlow {
+    background-color: rgb(61, 74, 113);
+    color: white;
+    padding: 10px;
+}
+
+.headerlow nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.headerlow nav ul li {
+    margin: 0 10px;
+}
+
+.headerlow nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    margin: 0px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
 }
 
-.caja {
-    padding: 1%;
+.product {
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
 
+.product img {
+    width: 100%;
+    height: 300px; /* Altura fija para alinear visualmente */
+}
+
+.nombres {
+    text-align: center;
+    background-color: rgb(61, 74, 113);
+    color: white;
+    height: 70px;
+    align-content: center;
+}
+
+@media (max-width:768px) {
+    .product-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .product {
+        align-content: space-around;
+    }
+
+    .headerlow {
+        font-size: smaller;
+    }
 }
