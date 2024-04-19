@@ -4,6 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(209, 224, 255);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Estilos para el header */
@@ -43,7 +49,7 @@ body {
     margin-left: 20px;
 }
 
-/* Estilos para el headerlow */
+/* Estilos para la parte de abajo del header */
 .headerlow {
     background-color: rgb(61, 74, 113);
     color: white;
@@ -67,6 +73,7 @@ body {
 }
 
 
+/*estilos para la parte de los productos en la homepage*/
 main {
     margin: 0px;
 }
@@ -84,7 +91,6 @@ main {
 
 .product {
     background-color: white;
-    border: 1px solid rgb(255, 255, 255);
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 5px;
@@ -94,7 +100,7 @@ main {
 
 .product img {
     width: 100%;
-    height: 300px; /* Altura fija para alinear visualmente */
+    height: 300px; 
 }
 
 .nombres {
@@ -104,6 +110,7 @@ main {
     height: 70px;
     align-content: center;
 }
+
 
 @media (max-width:768px) {
     .product-list {
@@ -119,4 +126,16 @@ main {
     .headerlow {
         font-size: smaller;
     }
+}
+
+
+/*estilos para la página de detalle de producto*/
+
+.productoespecifico {
+    width: 300px;
+}
+
+.fotoiphones {
+    height: 700px;
+    border-radius: 10px;
 }
