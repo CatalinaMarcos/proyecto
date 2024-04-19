@@ -141,8 +141,11 @@ text-align: right;
 }
 
 .fotoiphones {
-    height: 700px;
-    border-radius: 10px;
+    display: flex;
+    margin-right: auto;
+    margin-left: 2%;
+    height: 500px;
+    border-radius: 3px;
 }
 
 /*estilos para el formulario de regirstro*/
