@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+      
+    <header>
+
+        <section class="main_header">
+            <div class="logo">
+                <i class="fa-solid fa-bag-shopping bolsa"></i>
+                <h2>TACAMICA</h2>
+            </div>
+            <nav class="funciones_header">
+                <a href="cart.html" class="carrito"><i class="fa fa-shopping-cart"></i></a>
+                <a href="./login.html" class="login">Login</a>
+                <a href="./registro.html" class="registro">Registro</a>
+            </nav>
+        </section>
+
+        <section class="headerlow">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="category.html">Electrónica</a></li>
+                    <li><a href="category.html">Accesorios</a></li>
+                    <li><a href="category.html">Hombre</a></li>
+                    <li><a href="category.html">Mujer</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+
+    <main class="general">
+
+        <div class="contenedor_login">
+            <form class="form_login" action="results.html" method="GET">  
+                <h2>Iniciar sesión</h2> <br>
+                <div class="usuario">
+                    <label>Email:</label>
+                    <input type="email" name="EmailDelUsuario" value="" placeholder="ejemplo@gmail.com">
+                </div>
+                <div class="usuario">
+                    <label>Contraseña:</label>
+                    <input type="password" name="Contraseña" value="">
+                </div>
+                <p><a class="links_login" href="recover.html">Recuperar contraseña</a></p> <br>
+                <button class="ingresar" type="submit">Ingresar</button> <br>
+                <p><a class="links_login" href="registro.html">No tengo cuenta</a></p> <br>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="nombres">
+        <h3>Catalina Marcos - Camila Soldati <br> Tienda E-Commerce 2024</h3>
+    </footer>
+
+</body>
+</html>
