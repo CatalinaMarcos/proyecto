@@ -114,6 +114,22 @@ text-align: right;
     height: 300px; 
 }
 
+.vermás {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.canasta {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    width: 35px;
+    height: 25px; 
+    border-radius: 3px;
+}
+
 
 /*Estilos para el footer*/
 
@@ -173,24 +189,8 @@ text-align: right;
     border-radius: 3px;
 }
 
-.vermás {
-    background-color: rgb(55, 55, 55);
-    color: white;
-    width: 80px;
-    height: 25px;
-    border-radius: 3px;
-}
-
-.canasta {
-    background-color: rgb(55, 55, 55);
-    color: white;
-    width: 35px;
-    height: 25px; 
-}
-
 
 /*Estilos responsive para la página de detalle de producto*/
-/*Mobile first*/
 
 @media (max-width: 768px) {
     .fotoiphones {
