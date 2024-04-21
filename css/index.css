@@ -155,8 +155,8 @@ text-align: right;
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    height: 200px;
     border-radius: 3px;
+    height: 300px;
 }
 
 .descripción {
@@ -192,18 +192,11 @@ text-align: right;
 /*Estilos responsive para la página de detalle de producto*/
 /*Mobile first*/
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .fotoiphones {
-        width: 50%;
-        height: 35%;
+        height: 55%;
+        width: 70%;
     }
-
-    .productoespecifico {
-        width: 98%;
-        display: flex;
-        justify-content: space-around;
-    }
-
 }
 
 
