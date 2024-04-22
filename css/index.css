@@ -242,17 +242,14 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3; }
 
-    h4 {
+h4 {
         font-size: 20px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        text-align: left;
+        text-align: center;
         font-style: italic;
         color: rgb(53, 35, 35);
-    
     }
 
     
-
 /*Estilos para el formulario de login*/
 
 .general {
@@ -288,9 +285,10 @@ input[type="submit"]:hover {
 }
 
 .links_login {
-    margin-top: 10px;
     color: rgb(3, 3, 198);
 }
+
+
 /* Estilos para formulario registro */
 
 .registro {
@@ -363,15 +361,18 @@ input[type="submit"]:hover {
 
 /* Estilos para la pagina de carrito  */
 
-.carrito2 h1 {
-    margin-bottom: }
+.carritodecompras {
+    margin: 15px;
+}
 
 .carrito3 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     border: 1px solid #ccc; 
-    padding: 10px; }
+    border-radius: 3px;
+    padding: 10px; 
+}
 
 .fotos {
     width: 100px; 
@@ -412,14 +413,12 @@ input[type="submit"]:hover {
     border: 1px solid #cfcfcf;
   }
   
-
   .input2 {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     box-sizing: border-box;
   }
-  
   
   .boton-recuperar {
     width: 100%;
@@ -429,7 +428,6 @@ input[type="submit"]:hover {
     border: none;
     margin-top: 10px;
   }
-  
   
   .input3 {
     margin-right: 5px;
