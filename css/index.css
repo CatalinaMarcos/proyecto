@@ -1,9 +1,10 @@
-/* Estilos generales */
+/*Estilos generales*/
+
 body {
-    font-family: Arial, sans-serif;
+    font-family:  "raleway";
     margin: 0;
     padding: 0;
-    background-color: rgb(209, 224, 255);
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -12,12 +13,14 @@ a {
     color: black;
 }
 
-/* Estilos para el header */
+
+/*Estilos para el header*/
+
 .main_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(61, 74, 113);
+    background-color: rgb(55, 55, 55);
     color: white;
     padding-left: 10px;
     padding-right: 10px;
@@ -49,9 +52,11 @@ a {
     margin-left: 20px;
 }
 
-/* Estilos para la parte de abajo del header */
+
+/*Estilos para la parte de abajo del header*/
+
 .headerlow {
-    background-color: rgb(61, 74, 113);
+    background-color: rgb(55, 55, 55);
     color: white;
     padding: 10px;
 }
@@ -73,7 +78,8 @@ a {
 }
 
 
-/*estilos para la parte de los productos en la homepage*/
+/*Estilos para la parte de los productos en la homepage*/
+
 main {
     margin: 0px;
 }
@@ -108,14 +114,35 @@ text-align: right;
     height: 300px; 
 }
 
+.vermás {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.canasta {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    width: 35px;
+    height: 25px; 
+    border-radius: 3px;
+}
+
+
+/*Estilos para el footer*/
+
 .nombres {
     text-align: center;
-    background-color: rgb(61, 74, 113);
+    background-color: rgb(55, 55, 55);
     color: white;
-    height: 70px;
+    height: 150px;
     align-content: center;
 }
 
+
+/*Estilos responsive para la home page*/
 
 @media (max-width:768px) {
     .product-list {
@@ -134,7 +161,7 @@ text-align: right;
 }
 
 
-/*estilos para la página de detalle de producto*/
+/*Estilos para la página de detalle de producto*/
 
 .productoespecifico {
     width: 300px;
@@ -143,17 +170,41 @@ text-align: right;
 .fotoiphones {
     display: flex;
     margin-right: auto;
-    margin-left: 2%;
-    height: 500px;
+    margin-left: auto;
+    border-radius: 3px;
+    height: 300px;
+}
+
+.descripción {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.agregar {
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-size:medium;
+    width: 180px;
+    height: 35px;
     border-radius: 3px;
 }
 
-/*estilos para el formulario de regirstro*/
+
+/*Estilos responsive para la página de detalle de producto*/
+
+@media (max-width: 768px) {
+    .fotoiphones {
+        height: 55%;
+        width: 70%;
+    }
+}
+
+
+/*Estilos para el formulario de regirstro*/
 
 .sesion {
     text-align: center;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nombre-container {
@@ -191,6 +242,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3; }
 
+<<<<<<< HEAD
     h4 {
         font-size: 20px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -201,3 +253,46 @@ input[type="submit"]:hover {
     }
 
     
+=======
+
+/*Estilos para el formulario de login*/
+
+.general {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_login {
+    background-color: white;
+    padding: 10px;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    text-align: center;
+}
+
+.usuario {
+    margin-bottom: 15px;
+}
+
+.ingresar {
+    background-color: rgb(74, 85, 239);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.links_login {
+    margin-top: 10px;
+    color: rgb(3, 3, 198);
+}
+
+>>>>>>> 076f1855a766f0d7040426436422bc3a365ff694
