@@ -198,57 +198,6 @@ text-align: right;
         width: 70%;
     }
 }
-
-
-/*Estilos para el formulario de regirstro*/
-
-.sesion {
-    text-align: center;
-    font-size: 50px;
-}
-
-.nombre-container {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
-}
-
-.nombre {
-    margin-bottom: 20px;
-    flex: 0 0 48%; }
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="tel"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #979292;
-    box-sizing: border-box; 
-}
-
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3; }
-
-h4 {
-        font-size: 20px;
-        text-align: center;
-        font-style: italic;
-        color: rgb(53, 35, 35);
-    }
-
     
 /*Estilos para el formulario de login*/
 
@@ -369,9 +318,17 @@ h4 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
     border: 1px solid #ccc; 
     border-radius: 3px;
     padding: 10px; 
+
+}
+
+.carrito4 {
+margin-left: 15px;
 }
 
 .fotos {
