@@ -1,12 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE html!>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Home Page</title>
     <link href="./css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
 
@@ -17,7 +20,7 @@
             </div>
             <nav class="funciones_header">
                 <a href="cart.html" class="carrito"><i class="fa fa-shopping-cart"></i></a>
-                <a href="login.html" class="login">Login</a>
+                <a href="./login.html" class="login">Login</a>
                 <a href="./registro.html" class="registro">Registro</a>
             </nav>
         </section>
@@ -35,37 +38,31 @@
         </section>
 
     </header>
-
-    <h1 class="sesion">Crea tu cuenta</h1>
-    <h2> DATOS PERSONALES</h2>
-    <div class="nombre-container">
-        <div class="nombre">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
+    
+    <main class="registro">
+        <div class="contenedor_registro">
+            <form class="form_registro" action="results.html" method="GET">  
+                <h2>Registro</h2> <br>
+                <div class="usuario">
+                    <label>Email:</label>
+                    <input type="email" name="Email" placeholder="ejemplo@gmail.com">
+                </div>
+                <div class="usuario">
+                    <label>Contraseña:</label>
+                    <input type="password" name="Contraseña">
+                </div>
+                <div class="usuario">
+                    <label>Repetir contraseña:</label>
+                    <input type="password" name="RepetirContraseña">
+                </div>
+                <button class="boton" type="submit">Registrarme</button> <br>
+            </form>
+            <div class="terminos">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">Acepto los términos y condiciones</label>
+            </div>
+            <p><a class="links_registro" href="login.html">Ya tengo una cuenta</a></p> <br>
         </div>
-        <div class="nombre">
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido">
-        </div>
-    </div>
-
-    <div class="nombre">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-    </div>
-
-    <div class="nombre">
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena">
-    </div>
-
-    <div class="nombre">
-        <label for="telefono">Número de teléfono:</label>
-        <input type="tel" id="telefono" name="telefono">
-    </div>
-
-    <div class="nombre">
-        <input type="submit" value="Enviar">
-    </div>
+    </main>
 </body>
-</html>
+</html> 

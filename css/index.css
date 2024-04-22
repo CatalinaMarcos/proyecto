@@ -263,7 +263,7 @@ input[type="submit"]:hover {
     align-items: center;
 }
 
-.contenedor_login {
+.contenedor_registro {
     background-color: white;
     padding: 10px;
 }
@@ -281,7 +281,6 @@ input[type="submit"]:hover {
 
 .ingresar {
     background-color: rgb(74, 85, 239);
-    color: white;
     font-size: 15px;
     padding: 10px;
     border: none;
@@ -292,4 +291,147 @@ input[type="submit"]:hover {
     margin-top: 10px;
     color: rgb(3, 3, 198);
 }
+/* Estilos para formulario registro */
 
+.registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+}
+
+.contenedor_registro {
+    text-align: center;
+}
+
+.usuario {
+    margin-bottom: 15px;
+}
+
+.links_registro {
+    text-decoration: none;
+    color: #003c7b;
+}
+
+.form_registro {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form_registro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form_registro input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+}
+
+.form_registro button {
+    padding: 10px 20px;
+    background-color: #0157b4;
+    color: #ffffff;
+    border: none;
+}
+
+.terminos {
+    margin-top: 10px;
+    text-align: left; } 
+
+    .usuario input {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+    }
+    
+    .usuario {
+        margin-bottom: 15px;
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
+
+
+/* Estilos para la pagina de carrito  */
+
+.carrito2 h1 {
+    margin-bottom: }
+
+.carrito3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    padding: 10px; }
+
+.fotos {
+    width: 100px; 
+    height: 100px;
+    margin-right: 20px; 
+}
+
+.items {
+    flex-grow: 1;
+}
+
+.compras {
+    padding: 10px 20px; 
+    background-color: rgb(45, 80, 10); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    margin-left: 20px; 
+}
+
+
+/* Estilos para recuperar contraseña*/ 
+
+.recuperar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contenedor_recover {
+    text-align: center;
+  }
+  
+  .form_recover {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #cfcfcf;
+  }
+  
+
+  .input2 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  .boton-recuperar {
+    width: 100%;
+    padding: 10px;
+    background-color: #005aba;
+    color: #e9e9e9;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  
+  .input3 {
+    margin-right: 5px;
+  }
+  

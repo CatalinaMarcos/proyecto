@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html!>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,10 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 
-<body>
     <header>
 
         <section class="main_header">
@@ -22,7 +20,7 @@
             </div>
             <nav class="funciones_header">
                 <a href="cart.html" class="carrito"><i class="fa fa-shopping-cart"></i></a>
-                <a href="login.html" class="login">Login</a>
+                <a href="./login.html" class="login">Login</a>
                 <a href="./registro.html" class="registro">Registro</a>
             </nav>
         </section>
@@ -41,32 +39,25 @@
 
     </header>
 
-    <div class="carrito2">
-        <h1>Carrito de Compras</h1>
-        <div class="carrito3">
-            <img src="./imágenes/iphone15.JPEG" alt="Fotografia iphone 15" class="fotos"> 
-            <div class="items">
-                <h3>Iphone 15</h3>
-                <p>Precio: $1000</p>
+    <main class="recuperar">
+        <div class="contenedor_recover">
+          <form class="form_recover" action="#" method="POST">
+            <h2>Recuperar Contraseña</h2>
+            <div class="usuario">
+              <label for="email">Correo electrónico:</label>
+              <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" class="input2">
             </div>
-            <a href="#" class="compras">Comprar</a>
-        </div>
-        <div class="carrito3">
-            <img src="./imágenes/iphone14.JPEG" alt="fotografia iphone 14" class="fotos">
-            <div class="items">
-                <h3>Iphone 14</h3>
-                <p>Precio: $850</p>
+            <div class="usuario">
+              <input type="checkbox" id="quiero-recuperar" name="quiero-recuperar" class="input3">
+              <label for="quiero-recuperar">Quiero recuperar mi contraseña</label>
             </div>
-            <a href="#" class="compras">Comprar</a>
+            <button type="submit" class="boton-recuperar">Recuperar</button>
+          </form>
         </div>
-        <div class="carrito3">
-            <img src="./imágenes/ipadpro.JPEG" alt="fotografia ipad pro" class="fotos">
-            <div class="items">
-                <h3>Ipad Pro</h3>
-                <p>Precio: $1200</p>
-            </div>
-            <a href="#" class="compras">Comprar</a>
-        </div>
-    </div>
-</body>
-</html>
+      </main>
+      
+      <footer class="nombres">
+        <h3>Catalina Marcos - Camila Soldati <br> Tienda E-Commerce 2024</h3>
+      </footer>
+    </body>
+    </html>
