@@ -190,3 +190,14 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #0056b3; }
+
+    h4 {
+        font-size: 20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: left;
+        font-style: italic;
+        color: rgb(53, 35, 35);
+    
+    }
+
+    
