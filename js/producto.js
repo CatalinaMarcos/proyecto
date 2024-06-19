@@ -16,7 +16,7 @@ fetch(`https://fakestoreapi.com/products/${id}`)
         let contenedor = ""
             contenedor= `<article class="productoespecifico">
                             <h2 class="descripcion">${data.title}</h2>
-                            <img class="imagen_producto" src="${data.image}" alt="">
+                            <img class="imagen_producto" src="${data.image}">
                             <p class="descripcion">Precio: $${data.price} USD</p>
                             <p class="descripcion">${data.description} </p>
                             <p class="descripcion">Categoria: <a href="./category.html">${data.category}</a></p>
