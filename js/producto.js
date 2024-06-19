@@ -14,12 +14,12 @@ fetch(`https://fakestoreapi.com/products/${id}`)
     .then(function (data) {
         pdetalle = document.querySelector(".detallado")
         let contenedor = ""
-            contenedor= `<article class="detalle_producto">
-                            <h2>${data.title}</h2>
+            contenedor= `<article class="productoespecifico">
+                            <h2 class="descripcion">${data.title}</h2>
                             <img class="imagen_producto" src="${data.image}" alt="">
-                            <p>Precio: $${data.price} USD</p>
-                            <p>${data.description} </p>
-                            <p>Categoria: <a href="./category.html">${data.category}</a></p>
+                            <p class="descripcion">Precio: $${data.price} USD</p>
+                            <p class="descripcion">${data.description} </p>
+                            <p class="descripcion">Categoria: <a href="./category.html">${data.category}</a></p>
                             <button class="agregar" id="agregar-al-carrito">Agregar al carrito</button>
                         </article>` 
 
