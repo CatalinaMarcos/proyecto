@@ -38,6 +38,7 @@ fetch(`https://fakestoreapi.com/products/${id}`)
             }
             pcarrito.push(id)
             localStorage.setItem("pcarrito", JSON.stringify(pcarrito))
+            alert("¡Producto agregado al carrito!")
         })
     })
 
