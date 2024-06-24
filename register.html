@@ -45,15 +45,19 @@
                 <h2>Registro</h2> <br>
                 <div class="usuario">
                     <label>Email:</label>
-                    <input type="email" name="Email" placeholder="ejemplo@gmail.com">
+                    <input class="emailRegister" type="email" name="Email" placeholder="ejemplo@gmail.com">
+                    <span class="mensajeEmail" style="display: none;">Por favor complete el campo</span>
                 </div>
                 <div class="usuario">
                     <label>Contraseña:</label>
-                    <input type="password" name="Contraseña">
+                    <input class="passwordRegister" type="password" name="Contraseña">
+                    <span class="mensajePassword" style="display: none;">Por favor complete el campo</span>
+                    <span class="mensajePasswordLength" style="display: none;">Debe ingresar al menos 6 caracteres</span>
                 </div>
                 <div class="usuario">
                     <label>Repetir contraseña:</label>
-                    <input type="password" name="RepetirContraseña">
+                    <input class="repetirPassword" type="password" name="RepetirContraseña">
+                    <span class="mensajeRepetir" style="display: none;">Las contraseñas no coinciden</span>
                 </div>
                 <button class="boton" type="submit">Registrarme</button> <br>
             </form>
