@@ -10,7 +10,7 @@ fetch('https://fakestoreapi.com/products/category/electronics')
         for (let i = 0; i < 6 ; i++) {
         productosElectronicos.innerHTML+=   `<div class="product">
                                                 <h3 class="centrado">${data[i].title}</h3>
-                                                <img class="img" src="${data[i].image}" alt="">
+                                                <img class="img" src="${data[i].image}">
                                                 <p class="centrado">${data[i].description}</p>
                                                 <p class="centrado">Precio: $${data[i].price} USD</p>
                                                 <a href="./producto.html?id=${data[i].id}"><button class="vermás">Ver más</button></a>
@@ -36,7 +36,7 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
         for (let i = 0; i < 6 ; i++) {
         productosAccesorios.innerHTML+=   `<div class="product">
                                                     <h3 class="centrado">${data[i].title}</h3>
-                                                    <img src="${data[i].image}" alt="">
+                                                    <img src="${data[i].image}">
                                                     <p class="centrado">${data[i].description}</p>
                                                     <p class="centrado">Precio: $${data[i].price} USD</p>
                                                     <a href="./producto.html?id=${data[i].id}"><button class="vermás">Ver más</button></a>
